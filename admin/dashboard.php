@@ -68,7 +68,8 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-dark px-4" style="background-color: #660B0B;">
     <span class="navbar-brand">Queueing System</span>
-    <a href="../logout.php" class="text-white">Logout</a>
+    
+    <a href="../logout.php" class="text-white text-decoration-none">Logout <i class="bi bi-box-arrow-right"></i></a>
 </nav>
 
 <!-- SIDEBAR -->
@@ -119,10 +120,78 @@
     </div>
 
     <!-- MAIN CONTENT -->
-    <div class="flex-fill p-4">
-        <h4>Welcome, Admin</h4>
-        <p>This is your dashboard content.</p>
+<div class="flex-fill p-3">
+
+    <h5 class="mb-2">Welcome, Admin</h5>
+    <p class="text-muted mb-3">Enrollment Overview</p>
+
+    <div class="row g-2 
+                row-cols-1 
+                row-cols-sm-2 
+                row-cols-md-3 
+                row-cols-lg-5">
+
+        <!-- TOTAL -->
+        <div class="col">
+            <div class="card shadow-sm text-center h-100">
+                <div class="card-body p-2">
+                    <i class="bi bi-people-fill fs-4 text-primary"></i>
+                    <div class="small mt-1">Total</div>
+                    <div class="fw-bold fs-5">1,250</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BSCS -->
+        <div class="col">
+            <div class="card shadow-sm text-center h-100">
+                <div class="card-body p-2">
+                    <i class="bi bi-laptop-fill fs-4 text-success"></i>
+                    <div class="small mt-1">BSCS</div>
+                    <div class="fw-bold fs-5">320</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BSIT -->
+        <div class="col">
+            <div class="card shadow-sm text-center h-100">
+                <div class="card-body p-2">
+                    <i class="bi bi-pc-display fs-4 text-warning"></i>
+                    <div class="small mt-1">BSIT</div>
+                    <div class="fw-bold fs-5">410</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BSINTE -->
+        <div class="col">
+            <div class="card shadow-sm text-center h-100">
+                <div class="card-body p-2">
+                    <i class="bi bi-gear-fill fs-4 text-info"></i>
+                    <div class="small mt-1">BSINTE</div>
+                    <div class="fw-bold fs-5">280</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BSHM -->
+        <div class="col">
+            <div class="card shadow-sm text-center h-100">
+                <div class="card-body p-2">
+                    <i class="bi bi-building fs-4 text-danger"></i>
+                    <div class="small mt-1">BSHM</div>
+                    <div class="fw-bold fs-5">240</div>
+                </div>
+            </div>
+        </div>
+
     </div>
+</div>
+
+
+
+
 </div>
 
 <script>
@@ -138,51 +207,6 @@ function toggleSidebar() {
 }
 
 </script>
-
-<!-- CONTENT -->
-<div class="container mt-4" style="margin-left: 260px; padding: 20px;">
-
-    <h4>Welcome, Admin</h4>
-    <p>This is your dashboard. You can modify this content.</p>
-
-    <div class="row mt-4">
-
-        <!-- CARD 1 -->
-        <div class="col-md-4">
-            <div class="card shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Feature 1</h5>
-                    <p class="card-text">Description of feature.</p>
-                    <a href="#" class="btn btn-primary btn-sm">Open</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- CARD 2 -->
-        <div class="col-md-4">
-            <div class="card shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Feature 2</h5>
-                    <p class="card-text">Description of feature.</p>
-                    <a href="#" class="btn btn-primary btn-sm">Open</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- CARD 3 -->
-        <div class="col-md-4">
-            <div class="card shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Feature 3</h5>
-                    <p class="card-text">Description of feature.</p>
-                    <a href="#" class="btn btn-primary btn-sm">Open</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
 
 </body>
 </html>
