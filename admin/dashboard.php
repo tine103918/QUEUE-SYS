@@ -109,13 +109,6 @@
                     <span>Programs</span>
                 </a>
             </li>
-
-            <li class="nav-item">
-                <a class="nav-link <?= $active=='students'?'active':'' ?>" href="students.php">
-                    <i class="bi bi-person-lines-fill"></i>
-                    <span>Students</span>
-                </a>
-            </li>
         </ul>
     </div>
 
@@ -187,7 +180,63 @@
         </div>
 
     </div>
+
+    <!-- Students Enrolled -->
+ <div class="card shadow-sm mt-4">
+    <div class="card-header fw-bold">
+        Currently Enrolled Students
+    </div>
+
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Last Name</th>
+                        <th>First Name</th>
+                        <th>Course</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023-001</td>
+                        <td>Dela Cruz</td>
+                        <td>Juan</td>
+                        <td>BSIT</td>
+                        <td>3rd Year</td>
+                    </tr>
+                    <tr>
+                        <td>2023-002</td>
+                        <td>Santos</td>
+                        <td>Maria</td>
+                        <td>BSCS</td>
+                        <td>2nd Year</td>
+                    </tr>
+                    <tr>
+                        <td>2023-003</td>
+                        <td>Reyes</td>
+                        <td>Paolo</td>
+                        <td>BSINTE</td>
+                        <td>4th Year</td>
+                    </tr>
+                    <tr>
+                        <td>2023-004</td>
+                        <td>Garcia</td>
+                        <td>Ana</td>
+                        <td>BSHM</td>
+                        <td>1st Year</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
+</div>
+
+
+
 
 
 
