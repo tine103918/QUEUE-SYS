@@ -54,7 +54,7 @@ $active = 'users';
                                     <span class="badge bg-success">Active</span>
                                 </td>
                                 <td>
-                                    <button class="btn btn-sm btn-outline-secondary">
+                                    <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#editUserModal">
                                         <i class="bi bi-pencil-square"></i>
                                     </button>
                                     <button class="btn btn-sm btn-warning text-white">
@@ -71,6 +71,8 @@ $active = 'users';
     </div>
 </div>
 <?php include 'modal/addUserModal.php'; ?>
+<?php include 'modal/editUserModal.php'; ?>
+
 <script>
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
